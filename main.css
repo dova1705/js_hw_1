@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: lightblue;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.active {
+    background-color: red;
+    border-radius: 50%;
+    color: aliceblue;
+}
