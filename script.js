@@ -17,7 +17,7 @@ const container = document.querySelector('.container');
 
 data.forEach(element => {
     const square = document.createElement('div'); //создание нового элемента div
-    square.classList = 'square'; //добавление нового класса
+    square.className = 'square'; //добавление нового класса
     square.innerText = element.title; //добавление текста внутрь элемента div
     container.append(square);
 
